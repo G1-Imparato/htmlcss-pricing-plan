@@ -74,7 +74,10 @@ header p {
 
 .classe-lista {
     list-style-type: none;
-    line-height: 3.0;
+    line-height: 2.5;
+    font-size: 22px;
+
+
 }
 
 
@@ -85,15 +88,17 @@ header p {
     text-align: center;
     border-color: grey;
     box-shadow: 0 10px 50px rgb(104, 104, 255, 0.8);
-
     border-radius: 20px;
-    padding: 30px 35px
+    padding: 50px;
+    min-width: fit-content;
+
 }
 
 
 .Quote1 {
     margin-bottom: 20px;
     opacity: 0.5;
+    text-align: left;
 }
 
 .dollar {
@@ -135,4 +140,31 @@ header p {
     font-family: 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-decoration: none;
+}
+
+.Main-box h2 {
+    font-size: 30px;
+    text-align: left;
+}
+
+.check {
+    font-weight: 600;
+    color: red;
+}
+
+
+.bi-check2-circle {
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 0 0px 10px rgb(104, 104, 255, 0.9);
+}
+
+.bi-x-circle {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.list-text {
+
+    margin-left: 10px;
 }
