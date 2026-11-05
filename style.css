@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -9,13 +9,12 @@
 .Container {
     max-width: 1200px;
     margin: auto;
+
 }
 
 
 .body {
     display: block;
-
-
 
 }
 
@@ -39,6 +38,7 @@ header p {
 
 
 .button1 {
+    font-size: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -52,22 +52,23 @@ header p {
 .Main-box {
     display: flex;
     flex-direction: row;
+
     justify-content: center;
-    gap: 200px;
     margin-top: 80px;
     font-family: sans-serif;
+
 }
 
 
 
 .Card-special {
+    flex-basis: calc(100%/3);
+    min-width: 350px;
     display: flex;
     flex-direction: column;
     text-align: center;
     background-color: #6500FF;
     border-radius: 25px;
-
-
 
 }
 
@@ -85,9 +86,11 @@ header p {
 .Card {
     display: flex;
     flex-direction: column;
+    flex-basis: calc(100% / 3);
+    min-width: 350px;
     text-align: center;
     border-color: grey;
-    box-shadow: 0 10px 50px rgb(104, 104, 255, 0.8);
+    box-shadow: 0 10px 50px rgba(48, 48, 48, 0.4);
     border-radius: 20px;
     padding: 50px;
     min-width: fit-content;
@@ -99,6 +102,7 @@ header p {
     margin-bottom: 20px;
     opacity: 0.5;
     text-align: left;
+
 }
 
 .dollar {
@@ -107,7 +111,7 @@ header p {
 }
 
 .price {
-    font-size: 44px;
+    font-size: 66px;
     font-weight: 550;
     margin-bottom: 30px;
 }
@@ -120,6 +124,7 @@ header p {
 
 .yearly {
     margin-bottom: 20px;
+    font-size: 28px;
 
 }
 
@@ -128,18 +133,28 @@ header p {
     font-size: 18px;
     background-color: rgb(128, 128, 128, 0.4);
     border-radius: 10px;
-    padding: 7px;
+    padding: 16px;
     margin-left: 10px
 }
 
 .btn1 {
     background-color: rgb(104, 104, 255);
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px;
     color: whitesmoke;
     font-family: 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.Card h2 {
+    color: red;
+
 }
 
 .Main-box h2 {
@@ -156,8 +171,9 @@ header p {
 .bi-check2-circle {
     font-size: 35px;
     font-weight: bold;
-    text-shadow: 0 0px 10px rgb(104, 104, 255, 0.9);
+    text-shadow: 3px 2px 6px rgb(104, 104, 255);
 }
+
 
 .bi-x-circle {
     font-size: 35px;
@@ -165,6 +181,48 @@ header p {
 }
 
 .list-text {
+    margin-left: 22px;
+}
 
-    margin-left: 10px;
+
+.Card-special {
+    color: whitesmoke;
+    padding: 50px;
+    min-width: fit-content;
+    box-shadow: 0 0px 100px 30px rgb(125, 184, 255);
+    border-color: rgba(128, 128, 128, 0.662);
+}
+
+.Card-special .btn1 {
+    background-color: white;
+    color: black;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.8);
+}
+
+
+.Card-special .month {
+    color: rgb(255, 255, 255);
+    opacity: 100;
+}
+
+
+.Card h2 {
+    color: black;
+    font-size: 50px
+}
+
+.Card-special h2 {
+    font-size: 50px;
+
+}
+
+
+.Card-special .sale {
+    background-color: whitesmoke;
+    color: black
+}
+
+.Card-special .Quote1 {
+    color: rgb(255, 255, 255);
+    opacity: 1
 }
