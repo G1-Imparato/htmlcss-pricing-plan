@@ -42,4 +42,4 @@ Guarda `screenshot-tablet-bonus.png`.
 
 ## Consegna
 
-Nessuna scadenza: lo correggiamo insieme giovedì. Fai push sul tuo fork, poi incolla il link nel canale del corso e scrivi se hai fatto dei bonus.
+Nessuna scadenza. Fai push sul tuo fork, poi incolla il link nel canale del corso e scrivi se hai fatto dei bonus.
